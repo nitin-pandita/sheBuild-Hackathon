@@ -1,9 +1,9 @@
 div(class="course_search_box")
-    div 
+    form(method="post") 
         ul  
             li 
-                input(type="search", name="course_search" placeholder="What do you want to learn?") 
+                input(type="search", name="course_search" placeholder="What do you want to learn?" id="") 
                 span <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
             li  
-                button 
-                    a(href="/") Search Course
+                a(href="/" class="btn btn-dark p-3") Search Course
+                    

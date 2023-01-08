@@ -285,24 +285,15 @@ button a{
   gap: 1em;
 }
 
-.home_page_heading button{
-  padding-inline: 16px;
-  padding-block:12px;
-  outline: none;
-  border:none;
-  font-size: 18px;
-  border-radius: 4px;
-}
-
 .course_search_box{
 }
-.course_search_box div{
+.course_search_box form{
   width: 100%;
   height: 12em;
   /* padding-inline-start: 11em; */
 }
 
-.course_search_box div ul{
+.course_search_box form ul{
   display: flex;
   width: 100%;
   justify-content: center;
@@ -311,28 +302,18 @@ button a{
   gap:1em;
 }
 
-.course_search_box div ul li{
+.course_search_box form ul li{
   list-style-type: none;
 }
-.course_search_box div ul li:nth-child(1){
+.course_search_box form ul li:nth-child(1){
   width: 40%;
 }
-.course_search_box div ul li:nth-child(1) input{
+.course_search_box form ul li:nth-child(1) input{
   width: 100%;
   padding-inline:16px;
-  padding-block:10px;
+  padding-block:12px;
   border-radius: 4px;
   font-size: 1.2em;
-}
-
-.course_search_box div ul li:nth-child(2) button{
-  width: 100%;
-  padding-inline:16px;
-  padding-block:13px;
-  outline: none;
-  border:none;
-  font-size: 18px;
-  border-radius: 4px;
 }
 
 .course_card{
