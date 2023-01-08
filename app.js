@@ -4,10 +4,8 @@ const bodyParser = require("body-parser");
 const favicon = require("serve-favicon");
 const path = require("path");
 require('dotenv').config()
-const timeObject = require('./public/scripts/time');
 const { timeEnd } = require("console");
 
-console.log(timeObject);
 
 /* ---------------------------- Basic Connections --------------------------- */
 const app = express();
@@ -50,7 +48,11 @@ app.get("*", function (req, res) {
 
 
 app.post("/", function (req, res) {
-  res.send('index')
+  https://youtube.googleapis.com/youtube/v3/search?channelType=any&forDeveloper=true&q=nodejs&key=[YOUR_API_KEY] HTTP/1.1
+
+  Authorization: Bearer[YOUR_ACCESS_TOKEN]
+  Accept: application / json
+
 });
 
 

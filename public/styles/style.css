@@ -337,5 +337,26 @@ button a{
 
 .course_card{
   /* padding-block-start:10em; */
-  padding-inline-start: 13em;
+  padding-inline: 13em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:3em;
+}
+
+
+
+/* ------------------------------ FOOTER STYLE ------------------------------ */
+.footer{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block-start:4em;
+}
+
+.footer ul li{
+list-style-type: none;
 }
